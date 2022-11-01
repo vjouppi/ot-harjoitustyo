@@ -9,3 +9,5 @@ _kursivoitua_
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
 
 Tehtävä 16
+
+Tehtävä 17
