@@ -1,0 +1,123 @@
+commit 473ae033f786bba51df0ef99d3f092fb59782410
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 17:01:46 2022 +0200
+
+    poista file1 ja uudelleennimeä file2
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3c80097d396d251db4580eada266bfaa821da899
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 17:01:37 2022 +0200
+
+    poista file1 ja uudelleennimeä file2
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit eac4fb78d1617f137902aa1281918f0299eadc17
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 17:00:02 2022 +0200
+
+    tehtävä 11 tiedostot tehty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 0359c8815b73d4432a61260070a1ad9821228018
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:57:27 2022 +0200
+
+    git add -p testailua
+
+ eka.txt    | 9 +++++++++
+ kolmas.txt | 2 +-
+ 2 files changed, 10 insertions(+), 1 deletion(-)
+
+commit c55e767a4ebe0b3f2b1a976fecf17943e814c49d
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:56:43 2022 +0200
+
+    tiedosto.txt nimetty eka.txt:ksi
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ed94e7e87ae8cf420e48ce36576fd4f54bfd6814
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:55:32 2022 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 0c7ee2f5939f72346702302a8080f4e23132b906
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:53:47 2022 +0200
+
+    tiedosto.txt rivien poisto ja lisäys
+
+ tiedosto.txt | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit d348d0a90016762fa531e887d1324115bd600f63
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:52:56 2022 +0200
+
+    tiedosto.txt sai sisältöä
+
+ tiedosto.txt | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 5390552fb41dd37d10f6c984861d1a8c007e02d1
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:50:32 2022 +0200
+
+    dirri ja tiedosto lisätty
+
+ stuff/jokintiedosto | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 0896480f3b408b5b369c01676a6320bd299c42da
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:49:58 2022 +0200
+
+    toinen ja kolmas muutettu
+
+ kolmas.txt | 2 +-
+ toinen.txt | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 5cf24c35a1a01003e776eb9f2330c1c2d9e1a537
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:49:36 2022 +0200
+
+    kolmas file
+
+ kolmas.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 8816c3ead223d71831247aa4633695bd966256df
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:48:41 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit c7efec04395434a80fe4450a98d9c523bc537ffa
+Author: Ville Jouppi <Ville.Jouppi@helsinki.fi>
+Date:   Tue Nov 1 16:47:51 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
