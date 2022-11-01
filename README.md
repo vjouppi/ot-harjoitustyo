@@ -2,4 +2,4 @@
 
 **lihavoitua**
 
-_ _kursivoitua_ _
+_kursivoitua_
