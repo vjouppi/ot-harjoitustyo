@@ -2,4 +2,4 @@
 
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
-| 15.11. | 1    | projektin dokumentaation perustaminen |
+| 15.11. | 2    | projektin dokumentaation perustaminen |
