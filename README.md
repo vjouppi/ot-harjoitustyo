@@ -11,3 +11,5 @@ _kursivoitua_
 Tehtävä 16
 
 Tehtävä 17
+
+[vaatimusmääritely](dokumentaatio/vaatimusmaarittely.md)
