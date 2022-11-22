@@ -8,6 +8,8 @@ Tällä sovelluksella kotimikron omistaja voi valjastaa laitteensa pakastimen si
 
 [tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 
+[muutoshistoria](dokumentaatio/changelog.md)
+
 ## Asennus ja käyttö
 
 ```bash
