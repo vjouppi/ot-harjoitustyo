@@ -1,17 +1,23 @@
-# Otsikko
+# Pakastekirjanpito
 
-**lihavoitua**
+Tällä sovelluksella kotimikron omistaja voi valjastaa laitteensa pakastimen sisällön seurantaan.
 
-_kursivoitua_
-
-[gitlog.txt](laskarit/viikko1/gitlog.txt)
-
-[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
-
-Tehtävä 16
-
-Tehtävä 17
+## Dokumentaatio
 
 [vaatimusmääritely](dokumentaatio/vaatimusmaarittely.md)
 
 [tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+
+## Asennus ja käyttö
+
+```bash
+poetry install
+poetry run invoke start
+```
+
+## Testaus
+
+```bash
+poetry run invoke coveragereport
+xdg-open htmlcov/index.html
+```
