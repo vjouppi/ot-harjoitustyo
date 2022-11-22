@@ -18,6 +18,6 @@ poetry run invoke start
 ## Testaus
 
 ```bash
-poetry run invoke coveragereport
+poetry run invoke coverage-report
 xdg-open htmlcov/index.html
 ```
