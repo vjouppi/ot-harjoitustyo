@@ -1,14 +1,14 @@
-from entities.user import User
-from repositories.user_repository import UserRepository
+from tkinter import Tk
+from ui.ui import UI
 
 
 def main():
-    print("le main routine")
-    userrepo = UserRepository()
-    myuser = User("jaakko", "passu")
-    userrepo.create(myuser)
-    for user in userrepo.list_users():
-        print(user)
+    mywindow = Tk()
+    mywindow.title("Freezer database")
+    myview = UI(mywindow)
+    myview.show_login()
+
+    mywindow.mainloop()
 
 
 if __name__ == "__main__":
