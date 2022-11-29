@@ -1,6 +1,3 @@
-from entities.user import User
-
-
 class UserRepository:
     def __init__(self):
         self.userlist = []
@@ -12,8 +9,7 @@ class UserRepository:
         for user in self.userlist:
             if user.username == username:
                 return user
-            else:
-                return None
+        return None
 
     def create(self, user):
         self.userlist.append(user)
