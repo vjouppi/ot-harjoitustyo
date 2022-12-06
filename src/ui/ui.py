@@ -10,7 +10,6 @@ class UI:
         self.username_entry = None
         self.password_entry = None
         self.userrepo = UserRepository()
-        self.userrepo.create(User("a", "b"))
 
     def do_login(self):
         myuser = User(self.username_entry.get(), self.password_entry.get())
@@ -20,7 +19,18 @@ class UI:
                 self.show_main()
 
     def do_newuser(self):
-        pass
+        myuser = User(self.username_entry.get(), self.password_entry.get())
+        found_user = self.userrepo.find_user(myuser.username)
+        if not found_user:
+            try:
+                self.userrepo.create(myuser)
+                status_label = ttk.Label(master=self.frame, text="User created successfully")
+            except:
+                status_label = ttk.Label(master=self.frame, text="User creation failed")
+            status_label.grid(padx=10, pady=10, column=1, row=4, columnspan=2, sticky=constants.EW)
+        else:
+            status_label = ttk.Label(master=self.frame, text="User already exists")
+            status_label.grid(padx=10, pady=10, column=1, row=4, columnspan=2, sticky=constants.EW)
 
     def show_main(self):
         if self.frame:

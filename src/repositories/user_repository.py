@@ -1,4 +1,8 @@
+class UserError(Exception):
+    pass
+
 class UserRepository:
+
     def __init__(self):
         self.userlist = []
 
@@ -12,4 +16,7 @@ class UserRepository:
         return None
 
     def create(self, user):
-        self.userlist.append(user)
+        if user.username == "":
+            raise UserError("Username can't be empty")
+        else:
+            self.userlist.append(user)
